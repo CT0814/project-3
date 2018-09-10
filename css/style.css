@@ -47,6 +47,11 @@ form {
 .top_text p {
   opacity: 0.4;
 }
+input:focus{
+  outline: none;
+  border: solid 2px blue;
+
+}
 
 /* fieldset styles */
 
