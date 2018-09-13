@@ -15,7 +15,6 @@ body {
 }
 
 /* Header style */
-
 .header {
   display: flex;
   flex-direction: column;
@@ -30,7 +29,6 @@ body {
 }
 
 /* Form styles */
-
 form {
   display: flex;
   flex-direction: column;
@@ -46,14 +44,13 @@ form {
 .top_text p {
   opacity: 0.4;
 }
-input:focus{
+
+input:focus {
   outline: none;
   border: solid 2px blue;
-
 }
 
 /* fieldset styles */
-
 fieldset {
   display: flex;
   flex-direction: column;
@@ -105,7 +102,7 @@ input[type="checkbox"], input[type="radio"] {
   height: 12px;
 }
 
-input[type="textarea"]{
+input[type="textarea"] {
   height: 100px;
   overflow: scroll;
 }
@@ -134,38 +131,39 @@ textarea {
 }
 
 /* Footer Style */
-
 footer {
   text-align: center;
   font-style: italic;
   height: 230px;
 }
-footer p{
+
+footer p {
   padding-top: 10px;
 }
 
-
 /* DESKTOP___________________ */
-
-
 @media (min-width: 760px) {
+  form {
+    margin: auto;
+    width: 600px;
+  }
 
-form {
-  margin: auto;
-  width: 600px;
-}
+  input[name="desktop"], select {
+    width: 70%;
+  }
 
-input[name="desktop"], select{
-  width: 70%;
-}
+  .field_one div {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+  }
 
-.field_one div {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  width: 100%;
-}
-
-.field_one div label {
-  width: 30%;
+  .field_one div label {
+    width: 30%;
+    margin: auto 0;
+ }
+ input[id="zip"]{
+   margin-right: 0;
+ }
 }
