@@ -166,7 +166,6 @@ input[name="desktop"], select{
   width: 100%;
 }
 
-
-
-
+.field_one div label {
+  width: 30%;
 }
