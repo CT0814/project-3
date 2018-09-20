@@ -1,6 +1,7 @@
 html {
   padding: 0;
   margin: 0;
+  font-family: 'Poor Story', cursive;
 }
 
 body {
@@ -48,7 +49,7 @@ form {
   opacity: 0.4;
 }
 
-input:focus {
+:focus {
   outline: none;
   border: solid 2px blue;
 }
